@@ -1,0 +1,105 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-home-btn {
+  color: #313133;
+  font-size: 30px;
+  align-self: center;
+  font-style: normal;
+  font-family: Unbounded;
+  font-weight: 400;
+  margin-left: 0px;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+.navigation-links-downloads-btn {
+  color: #313133;
+  font-size: 30px;
+  font-style: normal;
+  font-family: Unbounded;
+  font-weight: 400;
+  margin-left: 32px;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+.navigation-links-profiles-btn {
+  color: #313133;
+  font-size: 30px;
+  font-style: normal;
+  font-family: Unbounded;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-left: 32px;
+  letter-spacing: -1px;
+  text-transform: none;
+  text-decoration: none;
+}
+.navigation-links-contact-btn {
+  color: #313133;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.navigation-links-discord-btn {
+  color: #313133;
+  font-size: 30px;
+  font-style: normal;
+  font-family: Unbounded;
+  font-weight: 400;
+  margin-left: 32px;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.navigation-links-root-class-name8 {
+  align-self: flex-start;
+  margin-top: 0px;
+}
+.navigation-links-root-class-name9 {
+  align-self: flex-start;
+  margin-top: 0px;
+}
+.navigation-links-root-class-name10 {
+  align-self: flex-start;
+  margin-top: 0px;
+}
+.navigation-links-root-class-name11 {
+  align-self: flex-start;
+  margin-top: 0px;
+}
+.navigation-links-root-class-name17 {
+  align-self: flex-start;
+  margin-top: 0px;
+}
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-home-btn {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-downloads-btn {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-contact-btn {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-discord-btn {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+

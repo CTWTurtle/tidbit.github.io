@@ -1,0 +1,22 @@
+.component-container {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.component-image {
+  width: 100px;
+  height: 100px;
+  align-self: flex-start;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+
+
+
+
+

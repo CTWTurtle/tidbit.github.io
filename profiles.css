@@ -1,0 +1,210 @@
+.app-component-container {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.app-component-image {
+  width: 100px;
+  height: 100px;
+  align-self: flex-start;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-home-btn {
+  color: #313133;
+  font-size: 30px;
+  align-self: center;
+  font-style: normal;
+  font-family: Unbounded;
+  font-weight: 400;
+  margin-left: 0px;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+.navigation-links-downloads-btn {
+  color: #313133;
+  font-size: 30px;
+  font-style: normal;
+  font-family: Unbounded;
+  font-weight: 400;
+  margin-left: 32px;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+.navigation-links-profiles-btn {
+  color: #313133;
+  font-size: 30px;
+  font-style: normal;
+  font-family: Unbounded;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-left: 32px;
+  letter-spacing: -1px;
+  text-transform: none;
+  text-decoration: none;
+}
+.navigation-links-contact-btn {
+  color: #313133;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.navigation-links-discord-btn {
+  color: #313133;
+  font-size: 30px;
+  font-style: normal;
+  font-family: Unbounded;
+  font-weight: 400;
+  margin-left: 32px;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.navigation-links-root-class-name8 {
+  align-self: flex-start;
+  margin-top: 0px;
+}
+.navigation-links-root-class-name9 {
+  align-self: flex-start;
+  margin-top: 0px;
+}
+.navigation-links-root-class-name10 {
+  align-self: flex-start;
+  margin-top: 0px;
+}
+.navigation-links-root-class-name11 {
+  align-self: flex-start;
+  margin-top: 0px;
+}
+.navigation-links-root-class-name17 {
+  align-self: flex-start;
+  margin-top: 0px;
+}
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-home-btn {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-downloads-btn {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-contact-btn {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-discord-btn {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+
+.profiles-container {
+  width: 100%;
+  height: 1250px;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: auto;
+  image-rendering: pixelated;
+  justify-content: flex-start;
+  background-image: url("public/backgroundplus-1500w.png");
+  background-repeat: repeat;
+  background-position: center;
+}
+.profiles-header {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 32px;
+  justify-content: space-between;
+  background-color: #b2b2b2;
+}
+.profiles-nav {
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+.profiles-body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.profiles-container1 {
+  width: 768px;
+  height: 768px;
+  position: relative;
+  align-self: center;
+  background-color: #E9E3E6;
+}
+.profiles-image {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 512px;
+  bottom: 0px;
+  height: 512px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  border-color: var(--dl-color-gray-900);
+  border-style: outset;
+  border-width: 10px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+}
+@media(max-width: 767px) {
+  .profiles-header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .profiles-nav {
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .profiles-header {
+    padding: var(--dl-space-space-unit);
+  }
+}
