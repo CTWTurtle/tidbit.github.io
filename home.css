@@ -9,7 +9,7 @@
 }
 .app-component-image {
   width: auto;
-  height: 100px;
+  height: 100%;
   align-self: flex-start;
   object-fit: cover;
   transition: 0.3s;
