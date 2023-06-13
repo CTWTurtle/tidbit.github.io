@@ -8,8 +8,7 @@
   justify-content: flex-start;
 }
 .app-component-image {
-  width: 100px;
-  height: 100px;
+  width: auto;
   align-self: flex-start;
   object-fit: cover;
   transition: 0.3s;
